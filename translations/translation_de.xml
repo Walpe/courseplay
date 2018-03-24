@@ -159,6 +159,7 @@
 		<text name="COURSEPLAY_OPEN_HUD_MODE" 							 text="Courseplay öffnen:" />
 		<text name="COURSEPLAY_DEBUG_CHANNELS" 							 text="Debug-Channels" />
 		<text name="COURSEPLAY_PAGE_TITLE_COURSE_GENERATION" 			 text="Kursgenerierung" />
+		<text name="COURSEPLAY_ADVANCED_COURSE_GENERATOR_SETTINGS" 		 text="Advanced course generator settings" />
         <text name="COURSEPLAY_STARTING_LOCATION" 						 text="Startposition" />
         <text name="COURSEPLAY_ENDING_LOCATION" 						 text="Endposition" />
 		<text name="COURSEPLAY_STARTING_DIRECTION" 						 text="Startrichtung" />

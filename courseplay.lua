@@ -89,6 +89,7 @@ local function initialize()
 		'traffic',
 		'vehicles',
     'course-generator/courseGenerator',
+    'course-generator/courseGeneratorScreen',
     'course-generator/cp',
 	'course-generator/Genetic',	
     'course-generator/track',

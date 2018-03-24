@@ -3,7 +3,7 @@ CpManager = {};
 local CpManager_mt = Class(CpManager);
 addModEventListener(CpManager);
 
-
+local modDirectory = g_currentModDirectory
 
 function CpManager:loadMap(name)
 	self.isCourseplayManager = true;
@@ -80,6 +80,12 @@ function CpManager:loadMap(name)
 		local w = h / g_screenAspectRatio;
 		ovl:setDimension(w, h);
 	end;
+
+	-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	-- SCREENS
+--	g_courseGeneratorScreen = courseGeneratorScreen:new();
+-- 	g_gui:loadGui( modDirectory .. "course-generator/courseGeneratorScreen.xml", "courseGeneratorScreen", g_courseGeneratorScreen);
+
 
 	-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	-- FIELDS

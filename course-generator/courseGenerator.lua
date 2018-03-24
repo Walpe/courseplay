@@ -4,13 +4,16 @@ courseGenerator = {}
 -- Distance of waypoints on the generated track in meters
 courseGenerator.waypointDistance = 5
 
+-- These numbers must match the COURSEPLAY_DIRECTION_* texts in the translation files
 courseGenerator.ROW_DIRECTION_NORTH = 1
 courseGenerator.ROW_DIRECTION_EAST = 2
 courseGenerator.ROW_DIRECTION_SOUTH = 3
 courseGenerator.ROW_DIRECTION_WEST = 4
+courseGenerator.ROW_DIRECTION_MIN = 5
 courseGenerator.ROW_DIRECTION_AUTOMATIC = 5
 courseGenerator.ROW_DIRECTION_LONGEST_EDGE = 6
 courseGenerator.ROW_DIRECTION_MANUAL = 7
+courseGenerator.ROW_DIRECTION_MAX = 7
 
 courseGenerator.trackDirectionRanges = {
 	{ angle =  0  },
@@ -45,6 +48,7 @@ courseGenerator.STARTING_LOCATION_SW_LEGACY = 1
 courseGenerator.STARTING_LOCATION_NW_LEGACY = 2
 courseGenerator.STARTING_LOCATION_NE_LEGACY = 3
 courseGenerator.STARTING_LOCATION_SE_LEGACY = 4
+courseGenerator.STARTING_LOCATION_NEW_COURSEGEN_MIN = 5
 courseGenerator.STARTING_LOCATION_VEHICLE_POSITION = 5
 courseGenerator.STARTING_LOCATION_LAST_VEHICLE_POSITION = 6
 courseGenerator.STARTING_LOCATION_SW = 7

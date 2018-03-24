@@ -155,6 +155,7 @@
 		<text name="COURSEPLAY_OPEN_HUD_MODE" 							 text="HUD megnyitása:" />
 		<text name="COURSEPLAY_DEBUG_CHANNELS" 							 text="Hibakereső csatorna:" />
 		<text name="COURSEPLAY_PAGE_TITLE_COURSE_GENERATION" 			 text="Útvonal generálás" />
+		<text name="COURSEPLAY_ADVANCED_COURSE_GENERATOR_SETTINGS" 		 text="Űtvonalgenerátor beállítások" />
 		<text name="COURSEPLAY_STARTING_LOCATION" 						 text="Starting location" />  <!-- TO BE TRANSLATED -->
 		<text name="COURSEPLAY_ENDING_LOCATION" 						 text="Ending location" />      <!-- TO BE TRANSLATED -->
 		<text name="COURSEPLAY_STARTING_DIRECTION" 						 text="Művelés kezdő iránya:" />
